@@ -76,7 +76,7 @@ header {
 	.hero-img {
 		position: relative;
 		height: 100vh;
-		background-image: url(/img/playstation-1845880_640.jpg);
+		background-image: url("../img/playstation-1845880_640.jpg");
 		background-position: center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -125,7 +125,7 @@ header {
 		font-size: 14px;
 	}
 	.aboutus-hover {
-		/*transition: color 0.3s;*/
+		transition: color 0.3s;
 	}
 	.aboutus-hover:hover {
 		color: $main-color;
@@ -133,7 +133,7 @@ header {
 }
 .aboutus-hero {
 	position: relative;
-	background-image: url(/img/technology-2818664_640.jpg);
+	background-image: url("../img/technology-2818664_640.jpg");
 	background-position: center;
 	background-size: cover;
 	color: $light-grey;
@@ -213,111 +213,111 @@ header {
 }
 .team {
 	position: relative;
-	background-image: url(/img/team/team/office-4959789_1920.jpg);
+	background-image: url("../img/team/team/office-4959789_1920.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-    z-index: 0;
-    h2 {
-        color: $light-grey;
-    }
-    .team-shadow {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.6);
-        top: 0;
-        z-index: -5;
-    }
-    .card {
-        transition: transform .3s;
-        img {
-            height: 300px;
-            object-fit: cover;
-        }
-        i {
-            padding: 10px;
-        }
-        .card-body {
-            height: 160px;
-        }
-    }    
-    .card:hover {
-            transform: scale(0.96);
-    }
-    .card-title {
-        margin-bottom: 20px;
-        text-align: center;
-        text-transform: uppercase;
-    }
+	z-index: 0;
+	h2 {
+		color: $light-grey;
+	}
+	.team-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		top: 0;
+		z-index: -5;
+	}
+	.card {
+		transition: transform 0.3s;
+		img {
+			height: 300px;
+			object-fit: cover;
+		}
+		i {
+			padding: 10px;
+		}
+		.card-body {
+			height: 160px;
+		}
+	}
+	.card:hover {
+		transform: scale(0.96);
+	}
+	.card-title {
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
 }
 
 .achievements {
-    i {
-        padding: 10px;
-        font-size: 48px;
-        color: $white;
-        text-shadow: 0 0 5px #000; 
-    }
-    .achievements-list {
-        padding: 20px 0;
-    }
-    .achievement-number {
-        font-size: 22px;
-    }
-    .achievement-text {
-        font-size: 13px;
-        text-transform: uppercase;
-    }
+	i {
+		padding: 10px;
+		font-size: 48px;
+		color: $white;
+		text-shadow: 0 0 5px #000;
+	}
+	.achievements-list {
+		padding: 20px 0;
+	}
+	.achievement-number {
+		font-size: 22px;
+	}
+	.achievement-text {
+		font-size: 13px;
+		text-transform: uppercase;
+	}
 }
 .contact {
-    position: relative;
-    background-image: url(/img/team/team/skyline-1869214_1920.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: 0;
-    h2 {
-        color: $light-grey;
-        font-weight: bold;
-    }
-    .underline {
-        background-color: $light-grey;
-    }
-    .contact-shadow {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 9, 27, 0.85);
-        top: 0;
-        z-index: -5;
-    }
-    .contact-us {
-        display: flex;
-        align-items: center;
-        color: $white;
-        .contact-item {
-            margin: 30px 0;
-        
-            h3 {
-                margin-bottom: 15px;
-                text-transform: uppercase;
-                letter-spacing: 2px;
-            }
+	position: relative;
+	background-image: url("../img/team/team/skyline-1869214_1920.jpg");
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+	h2 {
+		color: $light-grey;
+		font-weight: bold;
+	}
+	.underline {
+		background-color: $light-grey;
+	}
+	.contact-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 9, 27, 0.85);
+		top: 0;
+		z-index: -5;
+	}
+	.contact-us {
+		display: flex;
+		align-items: center;
+		color: $white;
+		.contact-item {
+			margin: 30px 0;
 
-            .social-media {
-                font-size: 26px;
+			h3 {
+				margin-bottom: 15px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
 
-                a {
-                    padding: 10px;
-                    color: $white;
-                }
-                a:hover {
-                    color: $light-grey;
-                }
-            }
-        }
-    }
+			.social-media {
+				font-size: 26px;
+
+				a {
+					padding: 10px;
+					color: $white;
+				}
+				a:hover {
+					color: $light-grey;
+				}
+			}
+		}
+	}
 }
 
 @media (min-width: 375px) {
@@ -345,7 +345,7 @@ header {
 		height: 82px;
 	}
 	.aboutus-hero {
-		background-image: url(/img/technology-2818664.jpg);
+		background-image: url("../img/technology-2818664.jpg");
 	}
 	.prices {
 		.price-info {
@@ -357,7 +357,7 @@ header {
 @media (min-width: 1200px) {
 	header {
 		.hero-img {
-			background-image: url(/img/playstation-1845880_1920.jpg);
+			background-image: url("../img/playstation-1845880_1920.jpg");
 		}
 	}
 }
